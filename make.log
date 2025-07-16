@@ -1,0 +1,4 @@
+# Remove the mmu executable and backup files
+rm -f mmu *~
+# Use g++ to compile with debugging info
+g++ -g mmu.cpp -o mmu
